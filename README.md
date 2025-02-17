@@ -1,4 +1,4 @@
-# Full Stack Fintech Application
+# Quickpay Full Stack Fintech Application
 
 ## Overview
 This is a **full-stack fintech web application** built using **MERN stack (MongoDB, Express.js, React, Node.js)**. The application provides users with secure financial transactions, account management, and analytics.
@@ -10,6 +10,7 @@ This is a **full-stack fintech web application** built using **MERN stack (Mongo
 - Transaction history & account statements
 - Real-time balance updates
 - Profile & settings management
+- phone number of user is the account number
 
 ### **Admin Features:**
 - User account management
@@ -40,7 +41,7 @@ This is a **full-stack fintech web application** built using **MERN stack (Mongo
 
 ## File Structure
 ```
-/fintech-app
+/QuickPay
 │── /backend
 │   ├── /config        # Configuration files (DB, auth, etc.)
 │   ├── /controllers   # Business logic
