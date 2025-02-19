@@ -1,0 +1,61 @@
+Task for everyone
+Rkay will work on the user functionality
+ which will entails
+
+1. Register User – Users sign up with name, email, phone number, and password.
+
+-Validation: Phone number must be 11 digits, password must be at least 6 characters.
+-Security: Passwords are hashed before storing.
+
+2. Login User – Users authenticate using email and password.
+-Security: JWT stored in HTTP-only cookies.
+
+3. Logout User – Clears the authentication token and logs the user out.
+
+4. Update Profile – Users can update name, email, and phone number.
+-Validation: Phone number must be 11 digits.
+
+5. Get Profile – Retrieves user details.
+
+6. Delete Account – Deletes a user’s account permanently.
+
+7. Send Money – Users send money within the app using the 10-digit account number (converted from their phone number).
+-Validation: Transaction fails if insufficient funds.
+-Security: Requires a valid 4-digit transaction PIN (hashed).
+-Receive Money – Balance updates when a user receives funds.
+
+6. Notification: Receiver gets a credit alert and receipt.
+
+7. Get Transaction History – Users view all past transactions.
+
+8. View Notifications – Users receive updates for transactions and admin messages.
+
+9. Pay Bill (Data, School, Electricity, etc.) – Users can select from fixed bill categories and make payments.
+-get Notifications for bill
+
+10. Reset Password – Users reset their password via email verification.
+-Validation: New password must be at least 6 characters.
+-Set or Update Transaction PIN – Users create or update their 4-digit PIN.
+-Security: PINs are hashed with bcrypt.
+-Verify Transaction PIN – Users must enter their correct 4-digit PIN before making transactions.
+
+Korede will work on the Transaction functionality
+
+Create Transaction Record (Debit/Credit Receipt) – Stores all transaction details securely.
+Update Account Balance After Transaction – Automatically adjusts sender and receiver balances.
+Send Notification for Money Sent (Debit) – Sender gets a debit notification and receipt.
+Send Notification for Money Received (Credit) – Receiver gets a credit notification and receipt.
+Store Transaction in Database – Ensures transaction history is permanently saved.
+Generate Transaction Receipt – Generates detailed receipts for all transactions.
+use pin for each Transaction paid for
+
+Tega will work on the BillPayment functionality
+
+Create Bill Record (Debit/Credit Receipt) – Stores all bill details securely.
+Update Account Balance After paying for bill – Automatically adjusts user balances.
+Send Notification for Money Spent (Debit) – user gets a debit notification and receipt.
+Send Notification for Bill paid (Credit) – user gets a credit notification and receipt.
+Store Bill in Database – Ensures Bill history is permanently saved.
+use pin for each Bill paid for
+
+i will work on the authentication and admin
