@@ -1,6 +1,7 @@
 Task for everyone
 Rkay will work on the user functionality
  which will entails
+user model, user controller, user route and user authentication
 
 1. Register User – Users sign up with name, email, phone number, and password.
 
@@ -21,45 +22,28 @@ Rkay will work on the user functionality
 
 7. Send Money – Users send money within the app using the 10-digit account number (converted from their phone number).
 -Validation: Transaction fails if insufficient funds.
--Security: Requires a valid 4-digit transaction PIN (hashed).
+-Security: pin for sending money.
 -Receive Money – Balance updates when a user receives funds.
 
-6. Notification: Receiver gets a credit alert and receipt.
+11. Email Verification
 
-7. Get Transaction History – Users view all past transactions.
+12. A user’s phone number is converted to a 10-digit account number by removing the first digit.
 
-8. View Notifications – Users receive updates for transactions and admin messages.
+korede wil work on the Transaction functionality
 
-9. Pay Bill (Data, School, Electricity, etc.) – Users can select from fixed bill categories and make payments.
--get Notifications for bill
+Transaction model, Transaction controller, Transaction route and Transaction authentication
 
-10. Reset Password – Users reset their password via email verification.
--Validation: New password must be at least 6 characters.
--Set or Update Transaction PIN – Users create or update their 4-digit PIN.
--Security: PINs are hashed with bcrypt.
--Verify Transaction PIN – Users must enter their correct 4-digit PIN before making transactions.
-
-11. Email Verification – Users must verify their email before completing registration or resetting passwords.
-Korede will work on the Transaction functionality
-
-12. Phone Number to Account Number Conversion – A user’s phone number is converted to a 10-digit account number by removing the first digit.
-
-
-Create Transaction Record (Debit/Credit Receipt) – Stores all transaction details securely.
+Create Transaction Record for each user 
 Update Account Balance After Transaction – Automatically adjusts sender and receiver balances.
-Send Notification for Money Sent (Debit) – Sender gets a debit notification and receipt.
-Send Notification for Money Received (Credit) – Receiver gets a credit notification and receipt.
 Store Transaction in Database – Ensures transaction history is permanently saved.
-Generate Transaction Receipt – Generates detailed receipts for all transactions.
 use pin for each Transaction paid for
 
 Tega will work on the BillPayment functionality
 
-Create Bill Record (Debit/Credit Receipt) – Stores all bill details securely.
+Create Bill Record for users
 Update Account Balance After paying for bill – Automatically adjusts user balances.
-Send Notification for Money Spent (Debit) – user gets a debit notification and receipt.
-Send Notification for Bill paid (Credit) – user gets a credit notification and receipt.
-Store Bill in Database – Ensures Bill history is permanently saved.
+Store Bill in Database 
 use pin for each Bill paid for
+user should pay for bill and can get previous bills 
 
 i will work on the authentication and admin
