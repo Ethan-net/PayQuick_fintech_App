@@ -39,7 +39,11 @@ Rkay will work on the user functionality
 -Security: PINs are hashed with bcrypt.
 -Verify Transaction PIN – Users must enter their correct 4-digit PIN before making transactions.
 
+11. Email Verification – Users must verify their email before completing registration or resetting passwords.
 Korede will work on the Transaction functionality
+
+12. Phone Number to Account Number Conversion – A user’s phone number is converted to a 10-digit account number by removing the first digit.
+
 
 Create Transaction Record (Debit/Credit Receipt) – Stores all transaction details securely.
 Update Account Balance After Transaction – Automatically adjusts sender and receiver balances.
