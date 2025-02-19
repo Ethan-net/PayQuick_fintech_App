@@ -51,7 +51,7 @@ This is a **full-stack fintech web application** built using **MERN stack (Mongo
 ## File Structure
 
 ```
-/QuickPay
+/PayQuick
 │── /Backend
 │   ├── /config        # Configuration files (DB, auth, etc.)
 │   ├── /controllers   # Business logic
@@ -61,7 +61,7 @@ This is a **full-stack fintech web application** built using **MERN stack (Mongo
 |   ├── /utils         # Reusable Helper functions
 │   ├── index.js       # Server entry point
 │
-│── /Frontend_Quickpay
+│── /Frontend
 │   ├── /src
 │   │   ├── /components  # Reusable UI components
 │   │   ├── /pages       # Page views
