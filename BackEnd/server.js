@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
+import transactionRoute from "../BackEnd/src/routes/transactionRoutes.js";
 
 const app = express();
 dotenv.config();
@@ -16,6 +17,10 @@ app.get("/", (req, res) => {
   res.send("Api is running...");
 });
 
-app.listen(process.env.PORT, () => {
+app.use("/transaction", transactionRoute);
+
+const port = process.env.PORT || 5000;
+
+app.listen(port, () => {
   console.log(`Server runs on port ${process.env.PORT}`);
 });
