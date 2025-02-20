@@ -7,10 +7,6 @@ const transactionSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    senderAccountNumber: {
-      type: String,
-      required: true,
-    },
     receiverAccountNumber: {
       type: String,
       required: true,
