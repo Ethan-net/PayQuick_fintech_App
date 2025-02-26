@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", serif;
+}
+.about-container {
+  background-color: #00da87;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  display: flex;
+
+  top: 2190px;
+  left: 169px;
+  gap: 300px;
+  color: #ffffff;
+  font-weight: 400;
+}
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+.about-right {
+  width: 481px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 32px;
+}
