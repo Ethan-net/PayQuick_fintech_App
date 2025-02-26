@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+.backgroundCurv {
+  position: relative;
+  width: 100%;
+  bottom: 280px;
+}
+
+.container {
+  width: 100%;
+}
+
+.how-it-works {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 900px;
+}
+
+.process {
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-size: 18.18px;
+}
+
+.title {
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-size: 36.35px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 300px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-number {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.step-title {
+  margin-top: 10px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.24px;
+  letter-spacing: 0%;
+}
+
+.step-description {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 200px;
+  color: #00000099;
+  opacity: 60%;
+}
+
+.dashed-line {
+  position: absolute;
+  top: 25px;
+  right: -180px;
+  width: 80px;
+  border-top: 2px dashed black;
+}
+
+.step:last-child .dashed-line {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .backgroundCurv {
+    position: relative;
+    width: 100%;
+    bottom: 120px;
+  }
+
+  .how-it-works {
+    top: 1600px;
+  }
+
+  .steps-container {
+    gap: 80px;
+  }
+
+  .dashed-line {
+    right: -75px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 425px) {
+  .backgroundCurv {
+    position: relative;
+    width: 100%;
+    bottom: 80px;
+  }
+
+  .how-it-works {
+    top: 1340px;
+  }
+
+  .steps-container {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashed-line {
+    right: -40px;
+    width: 80px;
+    display: none;
+  }
+
+  .step-number {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .step-title {
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 23px;
+  }
+
+  .step-description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 200px;
+    color: #00000099;
+    opacity: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  .backgroundCurv {
+    width: 100%;
+    bottom: 70px;
+  }
+
+  .how-it-works {
+    top: 1140px;
+  }
+
+  .steps-container {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashed-line {
+    right: -40px;
+    width: 80px;
+    display: none;
+  }
+
+  .step-number {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .step-title {
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 23px;
+  }
+
+  .step-description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 200px;
+    color: #00000099;
+    opacity: 60%;
+  }
+}
+
+@media (max-width: 320px) {
+  .backgroundCurv {
+    width: 100%;
+    bottom: 55px;
+  }
+
+  .how-it-works {
+    top: 1010px;
+  }
+
+  .title {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 30.35px;
+  }
+  .steps-container {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashed-line {
+    right: -40px;
+    width: 80px;
+    display: none;
+  }
+
+  .step-number {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .step-title {
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .step-description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 200px;
+    color: #00000099;
+    opacity: 60%;
+  }
+}
