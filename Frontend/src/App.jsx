@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import OTPInput from "./pages/OTPInput/OTPInput.jsx";
-import Home from "./components/HomePage/Home"; // Import the Home component
+import Home from "./components/HomePage/Home.js"; // Import the Home component
 
 function App() {
   // const [count, setCount] = useState(0);
