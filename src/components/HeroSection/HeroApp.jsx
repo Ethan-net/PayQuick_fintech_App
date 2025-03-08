@@ -3,7 +3,7 @@ import Header from "./header";
 import HeroSection from "./HeroSection";
 import HowItWorks from "./howItWorks";
 
-export default function VikiSection() {
+export default function HeroApp() {
   return (
     <div>
       <Header />
