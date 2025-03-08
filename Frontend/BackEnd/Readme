@@ -1,0 +1,49 @@
+Task for everyone
+Rkay will work on the user functionality
+ which will entails
+user model, user controller, user route and user authentication
+
+1. Register User – Users sign up with name, email, phone number, and password.
+
+-Validation: Phone number must be 11 digits, password must be at least 6 characters.
+-Security: Passwords are hashed before storing.
+
+2. Login User – Users authenticate using email and password.
+-Security: JWT stored in HTTP-only cookies.
+
+3. Logout User – Clears the authentication token and logs the user out.
+
+4. Update Profile – Users can update name, email, and phone number.
+-Validation: Phone number must be 11 digits.
+
+5. Get Profile – Retrieves user details.
+
+6. Delete Account – Deletes a user’s account permanently.
+
+7. Send Money – Users send money within the app using the 10-digit account number (converted from their phone number).
+-Validation: Transaction fails if insufficient funds.
+-Security: pin for sending money.
+-Receive Money – Balance updates when a user receives funds.
+
+11. Email Verification
+
+12. A user’s phone number is converted to a 10-digit account number by removing the first digit.
+
+korede wil work on the Transaction functionality
+
+Transaction model, Transaction controller, Transaction route and Transaction authentication
+
+Create Transaction Record for each user 
+Update Account Balance After Transaction – Automatically adjusts sender and receiver balances.
+Store Transaction in Database – Ensures transaction history is permanently saved.
+use pin for each Transaction paid for
+
+Tega will work on the BillPayment functionality
+
+Create Bill Record for users
+Update Account Balance After paying for bill – Automatically adjusts user balances.
+Store Bill in Database 
+use pin for each Bill paid for
+user should pay for bill and can get previous bills 
+
+i will work on the authentication and admin
